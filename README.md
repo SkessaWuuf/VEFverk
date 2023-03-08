@@ -1,1 +1,3 @@
 # VEFverk
+
+### Eirikur Svani Örvar

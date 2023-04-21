@@ -1,0 +1,458 @@
+/* CSS boilerplate  */
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+  - Colour Palette
+  - Variables
+  - Smooth Scroll
+  - Base Styles 
+  - Typography 
+  - Links
+  - Buttons
+  - Forms
+  - Lists
+  - Code
+  - Tables
+  - Images
+  - Blockquotes
+  - nav
+  - footer
+  - Media Queries */
+
+/* Colour palette For AlgaBonus Website */
+
+.a  {color:rgb(0,   48,    0)}
+.b  {color:rgb(0,  100,    0)}
+.c  {color:rgb(148, 236,   0)}
+.d  {color:rgb(224, 252, 132)}
+.e  {color:rgb(252, 252, 248)} 
+.f  {color:rgb(248, 252, 236)}
+.g  {color:rgb(120, 120, 120)}
+.h  {color:rgb( 55,  55,  55)}
+
+/* Variables
+Skiptið út letri og litagildildum fyrir litina sem þið notið í frumhönnun ykkar (style tyle).
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+  --body-font-family:'Lora', serif; /* ykkar leturval */
+  --body-color-text: rgb( 55,  55,  55);
+  --body-bg-color: rgb(252, 252, 248);
+  --body-padding: 0;
+  --body-margin:0;
+  --body-font-size: 1.1em;
+  --body-line-height:1.6;
+  --body-font-weight:400;
+  /* header */
+  --header-bg: rgb(148, 236,   0);
+  --header-color: rgb(0,   48,    0);
+  /* text */
+  --h1-color: rgb(0,   48,    0);
+  --h2-color: rgb(0,   48,    0);
+  --h3-color: rgb(0,   48,    0);
+  --h4-color: rgb(0,   48,    0);
+  /* navigation */
+  --nav-bg: rgb(148, 236,   0);
+  --nav-color: rgb(0, 70, 60);
+  --nav-bgcolor-hover: rgb(224, 252, 132);
+  /* links */
+  --a-color: rgb(0,  100,    0);
+  --a-visited:rgb(88, 139, 0);
+  --a-active:rgb(148, 236,   0);
+  /* footer */
+  --footer-bg: rgb(224, 252, 132);
+  --footer-color: rgb(0,   48,    0);
+  /* buttons */
+  --button: rgb(0,   48,    0);
+  --button-active:rgb(148, 236,   0);
+  --button-prime: rgb(0,   48,    0);
+  --button-prime-bg: rgb(148, 236,   0);
+  --button-prime-bg-hover: rgb(224, 252, 132);
+  --button-border: 1px solid rgb(187, 187, 187);
+  /* forms */
+  --form-bg: rgb(248, 252, 236);
+  --form-color: rgb(0, 0, 0);
+  --form-border: 1px solid rgb(187, 187, 187);
+  --form-border-focus: 1px solid rgb(0,   48,    0);
+  --form-border-error: 1px solid rgb(201, 2, 2);
+  --form-border-radius: 4px;
+  --form-placeholder-color: rgb(141, 141, 141);
+  --form-label-color: rgb(0,   48,    0);
+  --form-input-color-error: rgb(197, 2, 2);
+  --form-input-bg: rgb(255, 255, 255);  
+  --form-input-bg-error: rgb(255, 223, 223);
+  --form-input-bg-focus: rgb(255, 255, 255);
+  --form-input-bg-disabled: rgb(140, 140, 140);
+  --form-input-border: 1px solid rgb(187, 187, 187);
+  --form-input-border-error: 1px solid rgb(201, 2, 2);
+  --form-input-border-focus: 1px solid rgb(0,   48,    0);
+  --form-input-border-disabled: 1px solid rgb(131, 131, 131);
+  --form-input-border-radius: 4px;
+  --box-shadow: inset 2px 3px 5px rgb(192, 192, 192);
+  /* lists */
+  --list-style: none;
+  --list-style-position: inside;
+  --list-style-type: none;
+  /* code */
+  --code-bg: rgb(255, 255, 255);
+  --code-color: rgb(0, 0, 0);
+  --code-border: 1px solid rgb(187, 187, 187);
+  --code-border-radius: 4px;
+  /* tables */
+  --table-bg: rgb(255, 255, 255);
+  --table-color: rgb(55,55,55);
+  --table-border: 1px solid rgb(187, 187, 187);
+  --table-border-radius: 4px;
+  --table-odd-bg: rgb(229, 255, 185);
+  --td-border-bottom: 1px solid rgb(187, 187, 187);
+  --tfoot-bg: rgb(148, 236,   0);
+  --table-caption: rgb(148, 236,   0);
+  /* images */
+  --image-border: 1px solid rgb(187, 187, 187);
+  --image-border-radius: 4px;
+  /* blockquotes */
+  --blockquote-bg: rgb(255, 255, 255);
+  --blockquote-color: rgb(0, 0, 0);
+  --blockquote-border: 1px solid rgb(187, 187, 187);
+  --blockquote-border-radius: 4px;
+}
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: var(--body-margin);
+  padding: var(--body-padding);
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+  font-weight: var(--body-font-weight);
+  font-family: var(--body-font-family);
+  color: var(--body-color-text); 
+  background-color: var(--body-bg-color);
+}
+
+header,
+main,
+footer {
+  padding: 0 1em;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3 {
+  font-weight: 300; 
+  margin: 0 0 .5em 0;
+  color: var(--h1-color);
+}
+h4, h5, h6 {
+  font-weight: 700; 
+  color: var(--h4-color);
+}
+h1 { font-size: 2.5em; line-height: 1;  
+}
+h2 { font-size: 1.6em; line-height: 1.6; 
+}
+h3 { font-size: 1.3em; line-height: 1.6;  
+}
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: var(--a-color) 
+}
+a:visited {
+  color: var(--a-visited)
+}
+a:hover,
+a:active {
+  color:var(--a-active)
+} 
+
+/* Text align */
+
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.justify {
+  text-align: justify;
+}
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+/*  height: 2.3em; */
+  padding: 2px 2em;
+  color: var(--button);
+  text-align: center;
+  font-size: .8em;
+  font-weight: 600;
+  line-height: 2em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: var(--button-border);
+  cursor: pointer; }
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: var(--button-active);
+  border: var(--button-border);;
+  outline: 0; }
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: var(--button-prime);
+  background-color: var(--button-prime-bg);
+  border-color: var(--button-prime-bg); 
+  padding: 1em; 
+}
+
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: var(--button);
+  background-color: var(--button-prime-bg-hover);
+  border: var(--button-border); 
+}
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="date"],
+input[type="password"],
+textarea,
+select {
+  height: 2.4em;
+  padding: .4em .8em; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: var(--form-input-bg);
+  border: 1px solid var(--select-border);
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);}
+
+/* Removes awkward default styles on some inputs for iOS ?*/
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+      appearance: none; }
+
+textarea {
+  min-height: 5em;
+  padding-top: 6px;
+  padding-bottom: 6px; 
+  font-size: 1em;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 2px solid var(--a-active);
+  outline: 0; }
+
+/*label,*/
+legend {
+  margin-bottom: -1.5em;
+  font-weight: 600; }
+
+fieldset {
+  padding: 0;
+  border-width: 0; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; 
+}
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+ul {
+  list-style: circle inside; }
+ol {
+  list-style: decimal inside; }
+/*
+ol, ul {
+  padding-left: 0;
+  margin-top: 0; }
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1em 0 1em 3em;
+}
+li {
+  margin-bottom: .5em; }*/
+
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+code {
+  padding: .2em .5em;
+  margin: 0 .2em;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px; }
+pre > code {
+  display: block;
+  padding: 1em 1em;
+  white-space: pre; }
+
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+table {
+  border-collapse: collapse;
+  background-color: var(--table-bg);
+  color: var(--table-color);
+  width: 100%;
+  margin: 0 0 2em 0;
+  border-radius: var(--table-border-radius);
+}
+th,
+td {
+  padding: .8em;
+  text-align: left;
+  border-bottom: var(--td-border-bottom); }
+
+tbody tr:nth-child(odd) {
+    background-color: var(--table-odd-bg);
+  }
+caption {
+  font-size: 1.2em;
+  color: var(--body-color-text);
+  background-color: var(--table-caption);
+}
+tfoot {
+  background-color: var(--tfoot-bg);
+}
+/* 
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+*/
+
+/* Images
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+img {
+  max-width: 100%;
+  height: auto;
+}
+figure {
+  margin: 0;
+}
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {
+  padding: 2em 0;
+}
+footer,
+.footermenu nav{
+  background-color: var(--footer-bg);
+}
+.footermenu ul {
+  list-style-type: none;
+  padding: 0 2em;
+}
+.footermenu li {
+  line-height: 1.5;
+  border: 1px solid var(--footer-color);
+  border-width: 0 0 1px 0;
+}
+.footermenu a {
+  display: block;
+  color:var(--nav-color);
+  text-decoration: none;
+
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Larger than mobile 
+@media screen and (min-width: 30em) {}
+*/
+
+/* Larger than phablet (also point when grid becomes active) 
+@media screen and (min-width: 37.5em) {}
+*/
+
+/* Larger than tablet */
+@media screen and (min-width: 48em) {
+  h1 { 
+    font-size: 2.5em; 
+    line-height: 1.6;
+    margin: 0.5em 0;  
+  }
+  h2 { 
+    font-size: 1.8em; 
+    line-height: 1.6; 
+    margin-bottom: 0.5em;  
+  }
+  h3 { 
+    font-size: 1.6em; 
+    line-height: 1.6;  
+  }
+}
+
+/* Larger than desktop 
+@media screen and (min-width: 60em) {}
+*/
+
+/* Larger than Desktop HD 
+@media screen and (min-width: 100em) {}
+*/

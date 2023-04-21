@@ -1,0 +1,182 @@
+
+Name	Amount	Unit
+
+Water	85	g							
+
+Energy	35	kcal	Calculated						
+
+Energy	146	kJ							
+
+Protein	5.81	g							
+
+Total lipid (fat)	0.28	g							
+
+Ash	3.77	g							
+
+Carbohydrate, by difference	5.11	g	Calculated						
+
+Fiber, total dietary	0.3	g							
+
+Sugars, total including NLEA	0.49	g	Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors not used						
+
+Calcium, Ca	70	mg							
+
+Iron, Fe	1.8	mg							
+
+Magnesium, Mg	2	mg							
+
+Phosphorus, P	58	mg							
+
+Potassium, K	356	mg							
+
+Sodium, Na	48	mg							
+
+Zinc, Zn	1.05	mg							
+
+Copper, Cu	0.264	mg							
+
+Manganese, Mn	0.988	mg							
+
+Selenium, Se	0.7	µg	Calculated from different food; From average values for food category; No adjustment; Retention factors not used						
+12/1/1997
+Vitamin C, total ascorbic acid	39	mg							
+
+Thiamin	0.098	mg							
+
+Riboflavin	0.446	mg							
+
+Niacin	1.47	mg							
+
+Pantothenic acid	0.521	mg							
+
+Vitamin B-6	0.159	mg							
+
+Folate, total	146	µg							
+
+Folic acid	0	µg	Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)						
+
+Folate, food	146	µg							
+
+Folate, DFE	146	µg	Calculated						
+
+Choline, total	10.4	mg	Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors not used						
+
+Vitamin B-12	0	µg	Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)						
+
+Vitamin B-12, added	0	µg	Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)						
+9/1/2004
+Vitamin A, RAE	260	µg	Calculated						
+
+Retinol	0	µg	Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)						
+
+Carotene, beta	3120	µg	Other procedure used from imputing						
+
+Carotene, alpha	0	µg	Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)						
+
+Cryptoxanthin, beta	0	µg	Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)						
+
+Vitamin A, IU	5200	IU	Calculated						
+
+Lycopene	0	µg	Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)						
+
+Lutein + zeaxanthin	0	µg	Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)						
+
+Vitamin E (alpha-tocopherol)	1	mg	Other procedure used from imputing						
+
+Vitamin E, added	0	mg	Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)						
+9/1/2004
+Vitamin D (D2 + D3), International Units	0	IU	Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)						
+2/1/2009
+Vitamin D (D2 + D3)	0	µg	Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)						
+11/1/2008
+Vitamin K (phylloquinone)	4	µg	Taken from another source--other tables of food composition						
+
+Fatty acids, total saturated	0.061	g							
+
+SFA 4:0	0	g							
+2/1/1995
+SFA 6:0	0	g							
+2/1/1995
+SFA 8:0	0	g							
+2/1/1995
+SFA 10:0	0	g							
+2/1/1995
+SFA 12:0	0	g							
+2/1/1995
+SFA 14:0	0.003	g							
+
+SFA 16:0	0.05	g							
+
+SFA 18:0	0.003	g							
+
+Fatty acids, total monounsaturated	0.025	g							
+
+MUFA 16:1	0.008	g							
+
+MUFA 18:1	0.008	g							
+
+MUFA 20:1	0.009	g							
+
+MUFA 22:1	0	g							
+2/1/1995
+Fatty acids, total polyunsaturated	0.11	g							
+
+PUFA 18:2	0.004	g							
+
+PUFA 18:3	0.001	g							
+
+PUFA 18:4	0	g							
+2/1/1995
+PUFA 20:4	0.009	g							
+
+PUFA 20:5 n-3 (EPA)	0.08	g							
+
+PUFA 22:5 n-3 (DPA)	0	g							
+2/1/1995
+PUFA 22:6 n-3 (DHA)	0	g							
+2/1/1995
+Fatty acids, total trans	0	g	Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)						
+6/1/2015
+Cholesterol	0	mg	Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)						
+
+Tryptophan	0.043	g							
+
+Threonine	0.232	g							
+
+Isoleucine	0.259	g							
+
+Leucine	0.501	g							
+
+Lysine	0.222	g							
+
+Methionine	0.145	g							
+
+Cystine	0.1	g							
+
+Phenylalanine	0.273	g							
+
+Tyrosine	0.254	g							
+
+Valine	0.402	g							
+
+Arginine	0.285	g							
+
+Histidine	0.14	g							
+
+Alanine	0.651	g							
+
+Aspartic acid	0.567	g							
+
+Glutamic acid	0.547	g							
+
+Glycine	0.363	g							
+
+Proline	0.251	g							
+
+Serine	0.299	g							
+
+Alcohol, ethyl	0	g							
+4/1/1985
+Caffeine	0	mg	Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)						
+
+Theobromine	0	mg	Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)						

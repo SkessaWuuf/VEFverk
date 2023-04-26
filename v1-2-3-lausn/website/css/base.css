@@ -43,7 +43,7 @@ Skiptið út letri og litagildildum fyrir litina sem þið notið í frumhönnun
   --body-line-height:1.6;
   --body-font-weight:400;
   /* header */
-  --header-bg: rgb(148, 236,   0);
+  --header-bg: rgba(128, 122, 116, 0.584);
   --header-color: rgb(0,   48,    0);
   /* text */
   --h1-color: rgb(0,   48,    0);
@@ -51,7 +51,7 @@ Skiptið út letri og litagildildum fyrir litina sem þið notið í frumhönnun
   --h3-color: rgb(0,   48,    0);
   --h4-color: rgb(0,   48,    0);
   /* navigation */
-  --nav-bg: rgb(148, 236,   0);
+  --nav-bg: rgb(147, 138, 111);
   --nav-color: rgb(0, 70, 60);
   --nav-bgcolor-hover: rgb(224, 252, 132);
   /* links */
@@ -59,14 +59,14 @@ Skiptið út letri og litagildildum fyrir litina sem þið notið í frumhönnun
   --a-visited:rgb(88, 139, 0);
   --a-active:rgb(148, 236,   0);
   /* footer */
-  --footer-bg: rgb(224, 252, 132);
+  --footer-bg: rgb(103, 99, 92);
   --footer-color: rgb(0,   48,    0);
   /* buttons */
   --button: rgb(0,   48,    0);
-  --button-active:rgb(148, 236,   0);
+  --button-active:rgb(105, 98, 128);
   --button-prime: rgb(0,   48,    0);
-  --button-prime-bg: rgb(148, 236,   0);
-  --button-prime-bg-hover: rgb(224, 252, 132);
+  --button-prime-bg: rgb(83, 133, 195);
+  --button-prime-bg-hover: rgb(104, 195, 195);
   --button-border: 1px solid rgb(187, 187, 187);
   /* forms */
   --form-bg: rgb(248, 252, 236);
@@ -104,8 +104,8 @@ Skiptið út letri og litagildildum fyrir litina sem þið notið í frumhönnun
   --table-border-radius: 4px;
   --table-odd-bg: rgb(229, 255, 185);
   --td-border-bottom: 1px solid rgb(187, 187, 187);
-  --tfoot-bg: rgb(148, 236,   0);
-  --table-caption: rgb(148, 236,   0);
+  --tfoot-bg: rgb(86, 129, 117);
+  --table-caption: rgb(95, 143, 129);
   /* images */
   --image-border: 1px solid rgb(187, 187, 187);
   --image-border-radius: 4px;

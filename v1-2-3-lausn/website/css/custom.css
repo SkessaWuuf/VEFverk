@@ -22,7 +22,9 @@
 .justify {
   text-align: justify;
 }
-
+.img {
+  align-content: center ;
+}
 /*-------------------- Attribute Icons -------------*/
 
 .downlbutts {

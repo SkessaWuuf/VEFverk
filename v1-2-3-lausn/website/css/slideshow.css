@@ -27,22 +27,22 @@
   
   
   .slideshow li:nth-child(1) span { 
-      background-image: url("https://uploads-ssl.webflow.com/5976a3655fcd654cb3d604ca/5bfa14d04ae3429879830ee4_home-hero.jpg"); 
+      background-image: url("https://images.unsplash.com/photo-1494376877685-d3d2559d4f82?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=5ad2848a4a06df4fe305963146e739a4&w=800&q=90"); 
   }
   .slideshow li:nth-child(2) span { 
-      background-image: url("https://uploads-ssl.webflow.com/5976a3655fcd654cb3d604ca/5c00c9ecd82b40364fc97f4b_bridge.jpg");
+      background-image: url("https://images.unsplash.com/photo-1499578124509-1611b77778c8?ixlib=rb-0.3.5&s=17ada3fa1104c43afb13495f4f7b0db3&w=800&q=90");
       animation-delay: 6s; 
   }
   .slideshow li:nth-child(3) span { 
-      background-image: url("https://uploads-ssl.webflow.com/5976a3655fcd654cb3d604ca/5c00c9963ea913260bb41b0e_powerlines.jpg");
+      background-image: url("https://images.unsplash.com/photo-1505904645664-def2335fb0d4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2f19f837356a87b81f7c4fd5fff70488&w=800&q=90");
       animation-delay: 12s; 
   }
   .slideshow li:nth-child(4) span { 
-      background-image: url("https://uploads-ssl.webflow.com/5976a3655fcd654cb3d604ca/5bfa14d04ae3429879830ee4_home-hero.jpg");   
+      background-image: url("https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ab871c0ab223c15ee08a73f81d2d2770&w=800&q=90");   
       animation-delay: 18s; 
   }
   .slideshow li:nth-child(5) span { 
-      background-image: url("https://uploads-ssl.webflow.com/5976a3655fcd654cb3d604ca/5c00c9963ea913260bb41b0e_powerlines.jpg");
+      background-image: url("https://images.unsplash.com/photo-1476370648495-3533f64427a2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a66d00d8c522b8fcc4604de614109dae&w=800&q=90");
       animation-delay: 24s; 
   }
   
@@ -59,9 +59,9 @@
   
   @keyframes titleAnimation { 
       0% { opacity: 0 }
-      8% { opacity: 0 }
+      8% { opacity: 1 }
       17% { opacity: 0 }
-      19% { opacity: 0 }
+      19% { opacity: 1 }
       100% { opacity: 0 }
   }
   

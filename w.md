@@ -1,1 +1,0 @@
-#Eirikur Svani Örvar
